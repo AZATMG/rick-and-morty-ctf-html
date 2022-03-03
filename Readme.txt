@@ -23,6 +23,8 @@ Username: R1ckRul3s => kullanıcı adı bulundu                   |
                                                                |
 robots.txt Wubbalubbadubdub => robots.txt içinde bulunan yazı  |
                                                                |
+ dirbuster ile tarama yapıyoruz                                |
+                                                               |
 http://thm.lab/login.php => Login sayfası bulundu              |
                                                                |
 ===============================================================|
