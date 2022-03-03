@@ -46,7 +46,7 @@ FLAG = 1                                                                       |
                                                                                |
 Dizin ls yaptığımzıda Sup3rS3cretPickl3Ingred.txt dosyasını görüyoruz          |
                                                                                |
-cat Sup3rS3cretPickl3Ingred.txt => "mr. meeseek hair"                          |
+cat Sup3rS3cretPickl3Ingred.txt => "*** ******* ****"                          |
 ==========================================================================================================|
 aynı yerde bulunan Clue.txt dosyasyında                                                                   |
                                                                                                           |
@@ -59,7 +59,7 @@ cd /home/rick Dosyasnıa giriyoruz                              |
                                                                |
 ls yaptığımızda "second ingredients" diye dosyayı görüyoruz    |
                                                                |
-cat "second ingredients" => 1 jerry tear                       |
+cat "second ingredients" => * ***** ****                       |
 ===============================================================|
 YETKİ YÜKSELTME                                                |
                                                                |
@@ -71,7 +71,7 @@ FLAG = 3                                                       |
                                                                |
 cd /root/ Dosyasının içinde 3rd.txt buluyoruz                  |
                                                                |
-fleeb juice                                                    |
+***** *****                                                    |
 ===============================================================|
                                |
  _____ ___ _   _ ____  _   _   |
