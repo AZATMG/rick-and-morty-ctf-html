@@ -8,6 +8,16 @@ RİCK AND MORTY CTF                                    |
 |_| \_\___\____|_|\_\ /_/   \_\_| \_|____/  |_|  |_|\___/|_| \_\|_|   |_|   |
                                                                             |
 ============================================================================|
+TARAMA                                                                      |
+                                                                            |
+Hedef üzerinde nmap taraması yapıyporuz                                     |
+                                                                            |
+nmap <ip>                                                                   |
+                                                                            |
+HTTP 80 /open                                                               |
+SSH  80 /open                                                               |
+============================================================================|
+                                                               |
 Username: R1ckRul3s => kullanıcı adı bulundu                   |
                                                                |
 robots.txt Wubbalubbadubdub => robots.txt içinde bulunan yazı  |
